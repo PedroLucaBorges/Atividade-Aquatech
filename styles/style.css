@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.header {
+    background-color: #000000;
+    border-bottom: 2px solid #32b9cd;
+    padding: 15px 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .titulo {
+    color: #32b9cd;
+    font-size: 24px;
+}
+
+.header .navbar {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 15px;
+    color: #e3b062;
+}
+
+.header .navbar a {
+    color: #e3b062;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.header .navbar li.agora a {
+    font-weight: bold;
+    color: #e3b062;
+}
+
+/* BANNER */
+.banner {
+    background-color: #0d1117;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner p {
+    color: #ffffff;
+    font-size: 32px;
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.banner p span {
+    font-weight: bold;
+}
+
+
+.social {
+    background-color: #e5e5e5;
+    padding: 50px 0;
+}
+
+.social .boxes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social .box {
+    text-align: center;
+    width: 28%;
+}
+
+.social .box h4 {
+    color: #e62056;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.social .box p {
+    color: #333333;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+/* TELA DE LOGIN E CADASTRO */
+.login {
+    background-color: #0d1117;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.card {
+    background-color: #e5e5e5;
+    padding: 30px;
+    border-radius: 12px;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card h2 {
+    color: #e62056;
+    margin-bottom: 20px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.campo span {
+    color: #e62056;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.campo input {
+    padding: 10px;
+    border: 2px solid #32b9cd;
+    border-radius: 8px;
+    outline: none;
+    text-align: center;
+    font-size: 14px;
+}
+
+.botao {
+    background-color: #e62056;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* SIMULADOR */
+.simulador {
+    padding: 50px 0;
+    min-height: 400px;
+}
+
+.simulador h2 {
+    color: #32b9cd;
+    margin-bottom: 20px;
+}
+
+.simulador p {
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #32b9cd;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.footer h4 {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.footer .version {
+    font-size: 12px;
+}
